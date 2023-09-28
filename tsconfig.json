@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "outDir": "./dist",
+    "target": "ES2015",
+    "moduleResolution": "NodeNext",
+    "module": "NodeNext"
+  },
+  "include": ["./src/**/*"]
+}

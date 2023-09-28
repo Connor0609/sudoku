@@ -2,7 +2,7 @@ body {
   font: 14px "Century Gothic", Futura, sans-serif;
   margin: 20px;
 }
-  
+
 .cell {
   background: #fff;
   border: 1px solid #999;
@@ -15,26 +15,24 @@ body {
   width: 34px;
 }
 
-.square {
-  display: grid;
-  grid-template-columns: repeat(3, auto);
-  border: 2px solid #000;
-}
-  
-.square:focus {
+.box:focus {
   outline: none;
 }
-  
+
 .kbd-navigation .square:focus {
   background: #ddd;
-}
-  
-.sudoku {
-  display: inline-grid;
-  grid-template-columns: repeat(3, auto);
 }
 
 .app {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+}
+
+#controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
 }
