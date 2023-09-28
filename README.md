@@ -1,4 +1,6 @@
-Currently only solves easy puzzles by only remaining value. I plan to expand in the future.
+This project uses a React front-end which allows users to input sudoku puzzles from as small as 1x1 to as large as 5x5. The program then treats the puzzle as an exact cover problem and uses a dancing links approach to Knuth's Algorithm X to either
+1. Solve the puzzle, or
+2. Inform the user that the puzzle has no valid solution.
 
 # Getting Started with Create React App
 
