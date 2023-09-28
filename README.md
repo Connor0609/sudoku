@@ -1,3 +1,5 @@
+Currently only solves easy puzzles by only remaining value. I plan to expand in the future.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
